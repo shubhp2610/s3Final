@@ -1,0 +1,13 @@
+<html>
+	<body>
+		<form ref='uploadForm' 
+			id='uploadForm' 
+			action='https://s3shubh.vercel.app/upload' 
+			method='post' 
+			encType="multipart/form-data">
+                <input type="file" name="sampleFile" />
+                <input type="hidden" name="bkt" value="<%= bkt %>"/>
+				<input type='submit' value='Upload!' />
+		</form>		
+	</body>
+</html>
