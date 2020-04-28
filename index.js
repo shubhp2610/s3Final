@@ -7,9 +7,9 @@ var mkdirp = require('mkdirp');
 var fs = require('fs');
 var rimraf = require("rimraf");
 var con = mysql.createConnection({
-  host: "stackapi.net",
+  host: "",
   user: "root",
-  password: "shubhpatel2610",
+  password: "",
   database: "s3"
 });
 con.connect(function(err) {
